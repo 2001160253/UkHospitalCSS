@@ -1,0 +1,176 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.headerTop {
+  background-color: #7facd8;
+  padding: 8px 15px;
+}
+
+.headerTop div {
+  display: flex;
+  justify-content: right;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.seperate {
+  width: 1px;
+  background-color: #fff;
+  margin: 0 4px;
+}
+
+.headerBottom {
+  height: 80px;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  padding-bottom: 10px;
+}
+
+.headerBottom .logo {
+  font-size: 48px;
+}
+
+.headerBottom .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBottom .logo span {
+  color: #4a91b8;
+}
+
+.headerBottom .menu {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.headerBottom .menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.headerBottom .menu ul li:hover a {
+  color: red;
+}
+
+.headerBottom .menu ul li a {
+  text-decoration: none;
+  color: #868080;
+  font-size: 18px;
+}
+
+#banner {
+  background: url("./img/img.jpg") no-repeat center;
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+#banner div {
+  width: 80%;
+  background: rgba(60, 60, 60, 0.4);
+  height: 80%;
+  color: #fff;
+  font-size: 38px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+#content {
+  padding: 0 134px;
+  padding-top: 30px;
+  font-size: 19px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
+
+#content span {
+  margin: 4px 0;
+  display: block;
+}
+
+#content ul {
+  margin: 8px 0;
+}
+
+#content ul li {
+  margin: 4px 0;
+}
+
+#content h1 {
+  font-size: 31px;
+  margin: 16px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .footerWr {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 200px;
+}
+
+footer .footerWr input {
+  height: 30px;
+  width: 44%;
+  outline: none;
+}
+
+footer .footerWr input::placeholder {
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+footer .ft {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .ft #sex {
+  width: 45%;
+  font-size: 12px;
+}
+
+footer textarea {
+  resize: none;
+  outline: none;
+}
+
+footer textarea,
+footer button {
+  width: 100%;
+  padding: 0;
+}
+
+footer button {
+  height: 35px;
+  background: #518d9f;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer button:hover {
+  cursor: pointer;
+  background-color: red;
+}
